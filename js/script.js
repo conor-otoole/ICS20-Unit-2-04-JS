@@ -6,7 +6,7 @@
 
 "use strict"
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates the area and the perimeter of rectangle.
  */
 function calculate() {
   // input
@@ -19,6 +19,5 @@ function calculate() {
 
   // output
   document.getElementById("area").innerHTML = "Area is:" + area + "cm²"
-  document.getElementById("perimeter").innerHTML =
-    "Perimeter is:" + perimeter + "cm"
+  document.getElementById("perimeter").innerHTML = "Perimeter is:" + perimeter + "cm"
 }
